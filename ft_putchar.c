@@ -6,9 +6,11 @@
 /*   By: romgutie <romgutie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/08 01:05:50 by romgutie          #+#    #+#             */
-/*   Updated: 2025/12/08 01:06:40 by romgutie         ###   ########.fr       */
+/*   Updated: 2025/12/09 18:56:31 by romgutie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "ft_printf.h"
 
 int	ft_putchar(int c)
 {
