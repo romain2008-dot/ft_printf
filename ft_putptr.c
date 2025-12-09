@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ft_printf.h"
+
 int	ft_puthex_ptr(unsigned long long n)
 {
 	char	*base;
