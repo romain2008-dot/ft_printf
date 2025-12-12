@@ -25,16 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*
-#include <stdio.h>
-void	add_index(unsigned int i, char *c)
-{
-	*c = *c + i;
-}
-int	main(void)
-{
-	char str[] = "abcd";
-	ft_striteri(str, add_index);
-	printf("%s\n", str);
-	return (0);
-}*/

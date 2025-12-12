@@ -31,20 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/*
-#include <stdio.h>
-char	change_char(unsigned int i, char c)
-{
-	(void)i;
-	return (ft_toupper(c));
-}
-int main(void)
-{
-	char *res;
-
-	res = ft_strmapi("salut", change_char);
-	printf("%s\n", "salut");
-	printf("%s\n", res);
-	free(res);
-	return 0;
-}*/

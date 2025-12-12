@@ -29,15 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-    char str1[] = "Hello, world!";
-    char str2[] = "Hello, world!";
-    char str3[] = "Hello, World!";
-
-    printf("%d\n", ft_memcmp(str1, str2, 13));
-    printf("%d\n", ft_memcmp(str1, str3, 13));
-    return (0);
-}*/

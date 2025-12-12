@@ -29,9 +29,3 @@ char	*ft_strdup(const char *src)
 	dst[i] = '\0';
 	return (dst);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("%s\n", ft_strdup("test"));
-}*/

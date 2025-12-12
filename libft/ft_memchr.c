@@ -26,19 +26,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-    char	s[] = "Hello World!";
-    char	*res;
-
-    res = ft_memchr(s, 'o', 12);
-    printf("%c %ld\n", *res, res - s);
-    res = ft_memchr(s, 'z', 12);
-	if (res)
-		printf("%c %ld\n", *res, res - s);
-	else
-		printf("bah pas trouvé");
-    return (0);
-}*/

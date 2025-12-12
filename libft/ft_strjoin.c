@@ -29,9 +29,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_memcpy(dst + s1_len, s2, s2_len + 1);
 	return (dst);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("%s", ft_strjoin("test", "1test"));
-}*/

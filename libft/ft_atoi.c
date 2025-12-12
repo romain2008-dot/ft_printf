@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: romgutie <romgutie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/07 14:28:27 by romgutie          #+#    #+#             */
-/*   Updated: 2025/11/08 23:15:48 by romgutie         ###   ########.fr       */
+/*   Created: 2025/12/11 12:02:11 by romgutie          #+#    #+#             */
+/*   Updated: 2025/12/11 12:02:34 by romgutie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,13 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (res * sign);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("%d\n", ft_atoi("42"));
-	printf("%d\n", ft_atoi("-42"));
-	printf("%d\n", ft_atoi("---+--42"));
-	printf("%d\n", ft_atoi("  \r\n +--42"));
-	printf("%d\n", ft_atoi("  \r\n +42abc123"));
-}*/

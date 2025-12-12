@@ -39,17 +39,3 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	char	str1[50] = "Hello World!";
-	char	str2[50] = "test";
-	ft_memmove(str1 + 6, str2, 3);
-	printf("%s\n", str1);
-	ft_memmove(str1 + 6, str1, 5);
-	printf("%s\n", str1);
-
-	return (0);
-}
-*/

@@ -24,7 +24,7 @@ int	ft_putptr(void *ptr);
 int	ft_putnbr(int n);
 int	ft_putnbr_u(unsigned int n);
 int	ft_puthex(unsigned int n, int uppercase);
-int ft_printf(const char *format, ...);
-int ft_dispatch(char specifier, va_list args);
+int	ft_printf(const char *format, ...);
+int	ft_dispatch(char specifier, va_list args);
 
 #endif

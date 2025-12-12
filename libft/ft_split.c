@@ -93,20 +93,3 @@ char	**ft_split(char const *s, char c)
 	tab[i] = NULL;
 	return (tab);
 }
-/*
-#include <stdio.h>
-int main(void)
-{
-    char **tab = ft_split("salut les gars", ' ');
-    int i = 0;
-
-    while (tab[i])
-        printf("%s\n", tab[i++]);
-
-    i = 0;
-    while (tab[i])
-        free(tab[i++]);
-    free(tab);
-
-    return 0;
-}*/

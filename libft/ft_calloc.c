@@ -25,16 +25,3 @@ void	*ft_calloc(size_t count, size_t size)
 	ft_bzero(s, count * size);
 	return (s);
 }
-/*
-#include <stdio.h>
-int main(void)
-{
-	size_t i;
-	int *tab;
-
-	tab = ft_calloc(5, sizeof(int));
-	for (i = 0; i < 5; i++)
-		printf("%d\n", tab[i]);
-	free(tab);
-	return (0);
-}*/

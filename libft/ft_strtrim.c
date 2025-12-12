@@ -50,11 +50,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trim[i] = '\0';
 	return (trim);
 }
-
-/*
-#include <stdio.h>
-int	main(void)
-{
-	printf("%s\n", ft_strtrim("test", "t"));
-	printf("%s\n", ft_strtrim("abctestcba", "bac"));
-}*/

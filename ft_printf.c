@@ -6,7 +6,7 @@
 /*   By: romgutie <romgutie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 15:33:38 by romgutie          #+#    #+#             */
-/*   Updated: 2025/12/10 00:21:26 by romgutie         ###   ########.fr       */
+/*   Updated: 2025/12/10 13:22:59 by romgutie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,7 +54,7 @@ int	ft_printf(const char *format, ...)
 			write(1, &format[i], 1);
 			count++;
 		}
-	i++;
+		i++;
 	}
 	va_end(args);
 	return (count);

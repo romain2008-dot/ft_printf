@@ -28,23 +28,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-/*
-#include <stdio.h>
-
-int main(void)
-{
-    char src[] = "test";
-    char dest[20];
-
-    ft_memcpy(dest, src, 5);
-    printf("%s\n", dest);
-
-    ft_memcpy(dest, src, 2);
-    dest[2] = '\0';
-    printf("%s\n", dest);
-
-    ft_memcpy(dest, src, 0);
-    printf("%s\n", dest);
-    return 0;
-}
-*/

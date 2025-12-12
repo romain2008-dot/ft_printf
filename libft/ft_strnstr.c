@@ -32,17 +32,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-/*
-#include <stdio.h>
-int	main(void)
-{
-	const char *haystack = "Hello world";
-	const char *needle1 = "world";
-	const char *needle2 = "test";
-	const char *needle3 = "";
-	printf(" %s\n", ft_strnstr(haystack, needle1, 11));
-	printf(" %s\n", ft_strnstr(haystack, needle2, 11));
-	printf(" %s\n", ft_strnstr(haystack, needle3, 11));
-	printf(" %s\n", ft_strnstr(haystack, needle1, 5));
-	return 0;
-}*/
