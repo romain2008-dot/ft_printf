@@ -1,2 +1,4 @@
 Moumounator_printf/
 printfTester/
+*.o
+*.a

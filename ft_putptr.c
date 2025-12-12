@@ -6,7 +6,7 @@
 /*   By: romgutie <romgutie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/09 18:47:19 by romgutie          #+#    #+#             */
-/*   Updated: 2025/12/09 18:47:41 by romgutie         ###   ########.fr       */
+/*   Updated: 2025/12/12 13:41:41 by romgutie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,11 @@ int	ft_putptr(void *ptr)
 	unsigned long long	addr;
 	int					count;
 
+	if (!ptr)
+	{
+		ft_putstr("(nil)");
+		return (5);
+	}
 	addr = (unsigned long long)ptr;
 	count = 0;
 	count += ft_putstr("0x");
